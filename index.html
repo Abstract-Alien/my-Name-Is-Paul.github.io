@@ -1,73 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+layout: default
+title: Paul's Profile
+---
 
-<!-- TO DO
-  - get professional profile pictures taken and swap
-  - design an alien picture that will fade over top of profile pic on hover in large screen and when the word alien is pressed on small screen
-  - add an image over the background of the main part that corresponds to whichever programming language is being hovered over
-  - adjust javascript so that nav menu closes if it's open while scrolling down
-  - adjust javascript so that it scrolls nicely to top when alien logo is pressed
-  - add javascript to make sure custom scrollbar works in all browsers
-  - figure out why the margin spacing is not working on my logo
-
--->
-
-<head>
-  <!-- Required meta tags always come first -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="description" content="Web Developer Portfolio">
-  <meta name="keywords" content ="Web Developer, Front End Developer, Programmer, Coding, Professional Portfolio">
-  <title>Paul's Profile</title>
-  <link rel="stylesheet" href="Assets/Bootstrap/bootstrap-4.0.0-alpha.6-dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="Assets/Font-Awesome/font-awesome-4.7.0/css/font-awesome.css">
-  <link rel="stylesheet" type="text/css" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-</head>
-
-<body>
-  <div class="header" id="top">
-
-    <nav class="nav-down" id="nav">
-      <a href="#top" class="logo"><img src="Assets\Images\alien.PNG" alt="Alien Logo" width="40px" height="40px"/></a>
-      <div class="nav-btns" id="handle">
-        <a href="index.html">Profile</a>
-        <a href="projects.html">Projects</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
-      </div>
-      <div class="menu-icon">
-        <a href="javascript:void(0);" class="icon" onclick="openNav()">&#9776;</a>
-      </div>
-    </nav>
-
-    <div class="container-fluid mainProfile">
+<div class="container-fluid mainProfile">
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6 pictures text-center">
-            <img class="headshot img-fluid mx-auto" src="file:///C:/Users/Paul/Desktop/mySite/Portfolio/Assets/Images/my-profile.jpg"alt="My Profile Pic" width="350px">
+            <img class="headshot img-fluid mx-auto" src="assets/images/my-profile.jpg"alt="My Profile Pic" width="350px">
             </div>
             <div class="col-md-6 text">
               <h1>Paul McAviney</h1>
-              <h3>Coder/ Designer/ Alien</h3>
+              <h3>Coder/ Graphic Designer/ <br/>Digital Artist</h3>
               <h5>Aspiring Web Developer and UI/UX Designer</h5>
               <div class="social-media">
                 <div class="container">
                   <!-- fix facebook link -->
                   <a  class="social-icon" href="https://www.facebook.com/paul.mcaviney.18" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-                  <a class="social-icon" href="https://codepen.io/my-Name-Is-Paul/" target="_blank"><i class="fa fa-codepen" aria-hidden="true">
+                  <a class="social-icon" href="https://github.com/my-Name-Is-Paul" target="_blank"><i class="fa fa-github-square" aria-hidden="true">
                   </i></a>
                   <a class="social-icon" href="https://www.linkedin.com/in/paul-mcaviney-684a9412b/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
                   <a class="social-icon" href="https://www.instagram.com/bigphatpaulie/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                 </div>
               </div>
-              <img class="img-fluid mx-auto" src="Assets/Images/diamond-divider.png" alt="line break"/>
+              <img class="img-fluid mx-auto" src="assets/images/diamond-divider.png" alt="line break"/>
               <br>
               <br>
               <p class="code-language">HTML</p>
-              <p class="code-language">CSS/SASS</p>
+              <p class="code-language">CSS</p>
               <p class="code-language">JavaScript</p>
               <p class="code-language">GIMP/Krita</p>
             </div>
@@ -77,47 +37,15 @@
     </div>
 
     <div class="container-fluid about">
-      <div class="divider-img"><img class="img-fluid mx-auto" src="Assets/Images/tech-rings.png" alt="Sci Fi Circle" width="60px" height"60px"/>
+      <div class="divider-img"><img class="img-fluid mx-auto" src="assets/images/tech-rings.png" alt="Sci Fi Circle" width="60px" height"60px"/>
       </div>
       <div class="container">
         <h1 class="text-center">A Bit About Me</h1>
         <p class="about-text">I am a problem solver. Ever since a young age, I've taken a lot of pleasure in rising up to challenges and discovering creative ways to get around them. I also have an immense appreciation for art and other mediums of self expression. Having been an artist myself ever since I can remember, I can respect the amount of work it takes to create something out of nothing. Although I've only been working in the digital realm for less than two years, I'm confident that my perseverance and artistic attention to detail make me a formidable contender in the field of web development.</p>
         <p class="about-text">Over the past two months I have been teaching myself various coding languages to try and take my passion for art, design and technology to the next level. My goal is to create top tier professional websites and offer valuable front-end solutions to potential clients, all while growing my business and exploring everything this world has to offer. If you have any interest in my skills as a developer or even just want to chat, feel free to contact me via any of my social media pages.</p>
-        <img class="alien-stopper img-fluid mx-auto" src="Assets/Images/alien-head.GIF" alt="little alien head" width="40px" height="50px">
+        <img class="alien-stopper img-fluid mx-auto" src="assets/images/alien-head.GIF" alt="little alien head" width="40px" height="50px">
       </div>
       <div class="border-box">
-        <img class="img-fluid mx-auto bottom-border" src="Assets/Images/bottom-border-skyline.PNG" alt="Bottom Border">
+        <img class="img-fluid mx-auto bottom-border" src="assets/images/bottom-border-skyline.png" alt="Bottom Border">
       </div>
     </div>
-
-    <div class="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 footer-links">
-            <ul>
-              <li><a href="index.html">Profile</a></li>
-              <li><a href="projects.html">Projects</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="contact.html">Contact</a></li>
-            </ul>
-          </div>
-          <div class="col-md-6 bottom-social">
-            <div class="container">
-              <!-- fix facebook link -->
-              <a  class="social-icon" href="https://www.facebook.com/paul.mcaviney.18" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
-              <a class="social-icon" href="https://codepen.io/my-Name-Is-Paul/" target="_blank"><i class="fa fa-codepen" aria-hidden="true">
-              </i></a>
-              <a class="social-icon" href="https://www.linkedin.com/in/paul-mcaviney-684a9412b/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
-              <a class="social-icon" href="https://www.instagram.com/bigphatpaulie/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </div>
-          </div>"
-        </div>
-      </div>
-    </div>
-
-
-  <script src="Assets/jQuery/jquery-3.2.1.min.js"></script>
-  <script src="script.js"></script>
-</body>
-
-</html>

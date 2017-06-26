@@ -32,8 +32,8 @@ nav {
   -o-transition: top 0.3s ease-in-out;
 }
 
-.header {
-  background: url(Assets/Images/dark-floral-2.jpg) #333;
+.mainProfile {
+  background: url(assets/images/dark-floral-2.jpg) #333;
   background-size: cover;
   background-width: 100%;
   background-repeat: no-repeat;
@@ -142,7 +142,7 @@ nav {
 }
 
 .about {
-  background-image: url(Assets/Images/grey-steel-bg.JPG);
+  background-image: url(assets/images/grey-steel-bg.jpg);
   background-size: cover;
   width: 100%;
   height: auto;
@@ -257,7 +257,7 @@ nav {
 .projects {
   width: 100%;
   height: auto;
-  background-image: url(Assets/Images/blue-fancy-bg.JPG);
+  background-image: url(assets/images/blue-fancy-bg.JPG);
   background-width: 100%;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -304,10 +304,11 @@ nav {
 */
 
 .blog-main {
-  padding: 75px 15px;
+  min-height: 100vh;
+  padding: 75px 50px;
   background-image: url(http://cdn.wallpapersafari.com/76/55/clX7HC.jpg);
   background-size: cover;
-  
+
 }
 
 .posts {
@@ -321,7 +322,7 @@ nav {
 */
 
 .contact {
-  background-image: url(Assets/Images/grey-steel-bg.JPG);
+  background-image: url(assets/images/grey-steel-bg.JPG);
   background-size: cover;
   padding-top: 75px;
   padding-bottom: 75px;
