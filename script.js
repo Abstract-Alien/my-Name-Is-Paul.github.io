@@ -12,27 +12,27 @@ function openNav() {
 // This is the code to make the navbar disappear while scrolling down
 
 // Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $('nav').outerHeight();
-
-$(window).scroll(function(event){
-    didScroll = true;
-});
-
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 250);
-
-function hasScrolled() {
-    var st = $(this).scrollTop();
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
+// var didScroll;
+// var lastScrollTop = 0;
+// var delta = 5;
+// var navbarHeight = $('nav').outerHeight();
+//
+// $(window).scroll(function(event){
+//     didScroll = true;
+// });
+//
+// setInterval(function() {
+//     if (didScroll) {
+//         hasScrolled();
+//         didScroll = false;
+//     }
+// }, 250);
+//
+// function hasScrolled() {
+//     var st = $(this).scrollTop();
+//     // Make sure they scroll more than delta
+//     if(Math.abs(lastScrollTop - st) <= delta)
+//         return;
 
     // If they scrolled down and are past the navbar, add class .nav-up.
     // This is necessary so you never see what is "behind" the navbar.
@@ -46,8 +46,8 @@ function hasScrolled() {
     //     }
     // }  un-comment later to try and fix issue
 
-    lastScrollTop = st;
-}
+//     lastScrollTop = st;
+// }
 
 // This is the code that will determine which page is the current page and set the class of 'active' to the nav button
 // Not the prettiest way to do it so I will change the way it's done when I understand it a bit more
@@ -72,6 +72,6 @@ function showImages(el) {
   });
 }
 
-$(window).scroll(function() {
-  showImages('.alien-stopper');
-});
+// $(window).scroll(function() {
+//   showImages('.alien-stopper');
+// });

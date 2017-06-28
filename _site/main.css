@@ -80,6 +80,7 @@ nav {
 
 .nav-btns a:hover {
   color: rgb(100,100,100);
+  text-decoration: none;
 }
 
 .nav-btns .current {
@@ -386,6 +387,10 @@ nav {
 
 @media screen and (max-width: 767px) {
 
+  .mainProfile {
+    height: auto;
+  }
+
   nav {
     padding-top: 5px;
   }
@@ -431,7 +436,7 @@ nav {
   }
 
   .nav-btns a:first-child {
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
   .header {
