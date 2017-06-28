@@ -258,7 +258,7 @@ nav {
 .projects {
   width: 100%;
   height: auto;
-  background-image: url(assets/images/blue-fancy-bg.JPG);
+  background-image: url(assets/images/blue-fancy-bg.jpg);
   background-width: 100%;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -323,7 +323,7 @@ nav {
 */
 
 .contact {
-  background-image: url(assets/images/grey-steel-bg.JPG);
+  background-image: url(assets/images/grey-steel-bg.jpg);
   background-size: cover;
   padding-top: 75px;
   padding-bottom: 75px;
