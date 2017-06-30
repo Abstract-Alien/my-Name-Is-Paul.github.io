@@ -1,5 +1,5 @@
 exclude: ['README.md']
-basurl: /my-Name-Is-Paul.github.io
+baseurl: paulmcaviney.ca/
 permalink: pretty
 
 defaults:
