@@ -1,18 +1,22 @@
 ---
 layout: default
 title: Paul's Blog
-permalink: /blog
 ---
 <div class="blog-main">
-      <h1 class="text-center">My Journey As A Developer</h1>
-      <p>In order to keep myself accountable, I've decided to include a blog section on my website. This will provide myself, as well as others some insight into the path I've taken and hopefully act as a resource to newer developers who are looking to take the same path. The posts contained within are about my own struggles as I learn, things that have helped me along the way and also just random thoughts about my journey into the (for me) unknown.</p>
+  <h1 class="text-center">My Journey As A Developer</h1>
+  <p>In order to keep myself accountable, I've decided to include a blog section on my website. This will provide myself, as well as others some insight into the path I've taken and hopefully act as a resource to newer developers who are looking to take the same path. The posts contained within are about my own struggles as I learn, things that have helped me along the way and also just random thoughts about my journey into the (for me) unknown.</p>
 
-      <div class="container posts">
-        <h3 class="text-center">First Post / Temporary Placeholder</h3>
-        <h5 class="text-center">June 18, 2017</h5>
-        <p>This is my first post! It's a temporary one however until I can figure out markdown language and implement it into a more formal blog structure. This page here will be the main hub and offer snippets of each post.</p>
-        <p>As of right now (June 18, 2017) I am running through freeCodeCamp, CodeAcademy, and a Udemy Web Development course to try and learn web development. I am about to learn gitHub as well. I want to contribute to open source projects as well as hopefully create my own. I will also try to put my website up and host it through gitHub because I read somewhere that if I use their static website generator 'Jekyll' I am able to do that, so we'll see!</p>
+  <div class="container posts">
+    <h1 class="text-center">Posts</h1>
+    <ul class="blog-list">
+      {% for post in site.posts %}
+        <li class="well well-lg">
+          <span class="post-title"><a href="{{post.url}}">{{post.title}}</span>
+          {{ post.excerpt | remove: '<div class="blog-post">' }}
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
 
-
-    </div>
-    </div>
+  </div>
+</div>

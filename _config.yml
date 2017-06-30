@@ -1,0 +1,11 @@
+exclude: ['README.md']
+basurl: /my-Name-Is-Paul.github.io
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: default
