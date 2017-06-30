@@ -23,7 +23,8 @@ nav {
   left: 0;
   margin: 0;
   position: fixed;
-  height: 50px auto;
+  height: 50px;
+  margin-bottom: -50px;
   background-color: rgba(0,0,0,.9);
   z-index: 100;
   transition: top 0.3s ease-in-out;
@@ -41,11 +42,6 @@ nav {
   height: 100vh;
   padding-bottom: 75px;
 
-}
-
-nav {
-  height: 50px;
-  margin-bottom: -50px;
 }
 
 .logo {
@@ -84,7 +80,7 @@ nav {
 }
 
 .nav-btns .current {
-  background-color: rgba(255,255,255,0.1);
+  background-color: rgba(255,255,255,0.8);
 }
 
 .nav-btns .current:hover {
@@ -187,16 +183,15 @@ nav {
 }
 
 /* Fade in the Alien Stopper */
+@-webkit-keyframes animat_show {
+  0%{opacity:0}
+  100%{opacity:1}
+}
 
 .fade-in {
   -webkit-animation: animat_show 5s;
   animation: animat_show 5s;
   visibility: visible !important;
-}
-
-@-webkit-keyframes animat_show {
-  0%{opacity:0}
-  100%{opacity:1}
 }
 
 /* end of fade in section */
