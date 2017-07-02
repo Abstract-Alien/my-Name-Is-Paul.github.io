@@ -334,6 +334,7 @@ nav {
 
 .blog-list {
   list-style: none;
+  padding: 0;
 }
 
 .blog-list li a {
@@ -536,5 +537,18 @@ nav {
     background-color: rgba(0,0,0,.8);
   }
 
+  .blog-main {
+    padding: 75px 15px;
+    text-align: justify;
+  }
+
+  .blog-post {
+    padding: 75px 15px;
+    text-align: justify;
+  }
+
+  .post-text {
+    padding: 0 15px;
+  }
 
 }

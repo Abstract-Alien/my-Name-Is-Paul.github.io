@@ -1,11 +1,11 @@
 exclude: ['README.md']
-baseurl: /paulmcaviney.ca
+# baseurl: /paulmcaviney.ca
 permalink: pretty
 
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: default
+# defaults:
+#   -
+#     scope:
+#       path: ""
+#       type: "posts"
+#     values:
+#       layout: default
