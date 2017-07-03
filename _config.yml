@@ -1,6 +1,6 @@
 exclude: ['README.md']
 # baseurl: /paulmcaviney.ca
-permalink: pretty
+permalink: /:title/
 
 # defaults:
 #   -
