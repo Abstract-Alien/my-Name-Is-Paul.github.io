@@ -34,7 +34,7 @@ nav {
 }
 
 .mainProfile {
-  background: url(assets/images/dark-floral-2.jpg) #333;
+  background: url(/assets/images/dark-floral-2.jpg) #333;
   background-size: cover;
   background-width: 100%;
   background-repeat: no-repeat;
@@ -139,7 +139,7 @@ nav {
 }
 
 .about {
-  background-image: url(assets/images/grey-steel-bg.jpg);
+  background-image: url(/assets/images/grey-steel-bg.jpg);
   background-size: cover;
   width: 100%;
   height: auto;
@@ -253,7 +253,7 @@ nav {
 .projects {
   width: 100%;
   height: auto;
-  background-image: url(assets/images/blue-fancy-bg.jpg);
+  background-image: url(/assets/images/blue-fancy-bg.jpg);
   background-width: 100%;
   padding-top: 75px;
   padding-bottom: 75px;
@@ -362,7 +362,7 @@ nav {
 */
 
 .contact {
-  background-image: url(assets/images/grey-steel-bg.jpg);
+  background-image: url(/assets/images/grey-steel-bg.jpg);
   background-size: cover;
   padding-top: 75px;
   padding-bottom: 75px;

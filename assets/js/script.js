@@ -22,17 +22,28 @@ for (var i = 0; i< document.links.length; i++) {
 
 // This part fades in an image after reaching it on scroll
 
-function showImages(el) {
-  var windowHeight = jQuery( window ).height();
-  $(el).each(function() {
-    var thisPos = $(this).offset().top;
+// function showImages(el) {
+//   var windowHeight = $(window).height();
+//   $(el).each(function() {
+//     var thisPos = $('#alien-stopper').offset().top;
+//
+//     var topOfWindow = $(window).scrollTop();
+//     if (topOfWindow + windowHeight - 300 > thisPos) {
+//       $('#alien-stopper').addClass('fade-in');
+//     }
+//   });
+// }
 
-    var topOfWindow = $(window).scrollTop();
-    if (topOfWindow + windowHeight - 300 > thisPos) {
-      $(this).addClass('fade-in');
-    }
-  });
-}
+$(window).scroll(function() {
+     $('#alienStopper').each(function(){
+     var imagePos = $(this).offset().top;
+
+     var topOfWindow = $(window).scrollTop();
+         if (imagePos < topOfWindow+400) {
+             $(this).addClass("slideUp");
+         }
+     });
+ });
 
 // $(window).scroll(function() {
 //   showImages('.alien-stopper');
