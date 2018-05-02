@@ -322,6 +322,7 @@ nav {
 .well {
   background-color: rgba(100,100,100,0.1);
   padding: 20px;
+  margin-bottom: 15px;
   border-radius: 5px;
   transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -331,6 +332,7 @@ nav {
 
 .post-title {
   font-size: 30px;
+  text-align: center;
   border-bottom: 1px solid #555;
   padding-bottom: 3px;
   margin-bottom: 20px;
