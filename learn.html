@@ -10,7 +10,7 @@ permalink: /learn
   <div class="container posts">
     <h1 class="text-center">Posts</h1>
     <ul class="blog-list">
-      {% for post in site.learn %}
+      {% for learn in site.learn %}
         <li class="well well-lg">
           <span class="post-title"><a href="{{learn.url}}">{{learn.title}}</span>
           {{ learn.excerpt | remove: '<div class="blog-post">' }}
