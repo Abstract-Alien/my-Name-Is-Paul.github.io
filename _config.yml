@@ -2,6 +2,11 @@ exclude: ['README.md']
 # baseurl: /paulmcaviney.ca
 permalink: /:title/
 
+collection:
+  blog:
+    output: true
+    permalink: /blog/:path/ 
+
 # defaults:
 #   -
 #     scope:
@@ -9,3 +14,9 @@ permalink: /:title/
 #       type: "posts"
 #     values:
 #       layout: default
+#   -
+#     scope:
+#       path:   
+#       type: category
+#       values:
+#       layout: "category"

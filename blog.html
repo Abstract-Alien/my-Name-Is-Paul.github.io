@@ -10,7 +10,13 @@ permalink: /blog
   <div class="container posts">
     <h1 class="text-center">Posts</h1>
     <ul class="blog-list">
-      {% for post in site.posts %}
+
+        {% for post in site.blog %}
+        <h2>{{post.title}}</h2>
+        {{post.content | markdownify}}
+        {% endfor %}
+
+      {% for post in site.categories.blog %}
         <li class="well well-lg">
           <span class="post-title"><a href="{{post.url}}">{{post.title}}</span>
           {{ post.excerpt | remove: '<div class="blog-post">' }}
