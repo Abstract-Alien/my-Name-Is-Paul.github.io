@@ -36,7 +36,7 @@ nav {
 .mainProfile {
   background: url(/assets/images/dark-floral-2.jpg) #333;
   background-size: cover;
-  background-width: 100%;
+  /* background-width: 100%; */
   background-repeat: no-repeat;
   background-position: center;
   height: 100vh;
@@ -184,10 +184,10 @@ nav {
 }
 
 /* Fade in the Alien Stopper */
-@-webkit-keyframes animat_show {
+/* @-webkit-keyframes animat_show {
   0%{opacity:0}
   100%{opacity:1}
-}
+} */
 
 .fade-in {
   -webkit-animation: animat_show 5s;
@@ -255,7 +255,7 @@ nav {
   width: 100%;
   height: auto;
   background-image: url(/assets/images/blue-fancy-bg.jpg);
-  background-width: 100%;
+  /* background-width: 100%; */
   padding-top: 75px;
   padding-bottom: 75px;
   color: #969393;
