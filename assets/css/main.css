@@ -411,8 +411,10 @@ nav {
 }
 
 .disclaimer {
-  font-size: 11px;
-  text-align: justify;
+  font-size: 12px;
+  text-align: right;
+  margin: 0;
+  line-height: 0.5;
 }
 
 .disclaimer a {
