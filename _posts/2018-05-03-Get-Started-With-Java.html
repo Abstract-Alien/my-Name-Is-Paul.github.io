@@ -6,17 +6,37 @@ excerpt_seperator: <!-- excerpt -->
 ---
 <div class="blog-post">
 <!-- excerpt -->
-<p><br>For learning Java, so far the best resource I've found has been the <a href="https://en.wikipedia.org/wiki/Massive_open_online_course" target="_blank">MOOC</a> put oout by the
-University of Helsinki. In this lesson, I will show you how to get started with it using the IntelliJ IDE</p>
+<p><br>For learning Java, so far the best resource I've found has been the <a href="https://en.wikipedia.org/wiki/Massive_open_online_course" target="_blank">MOOC</a> put out by the University of Helsinki. In this lesson, I will show you how to get started with it using the IntelliJ IDE</p>
 <!-- excerpt -->
 
 </br>
 <h1 class="text-center">Get Started With Java</h1>
-</br>
-<div class="post-text">
-<p>So, how about a little more info about this website? This site is designed to be my personal portfolio. It will give potential clients and passersby a little insight into who I am and what I do. It's a place for me to post my projects and creations and with the blog it gives me a medium to express my thoughts and opinions.</p>
+    </br>
+    <div class="post-text">
+        <p>So to get started, the first thing you're going to need to do is download the Java Developer kit, or JDK. This lesson will be based in the IntelliJ IDE (more on that later) and as such, you need JDK 8 to run the code checking plugin. The only place you should be downloading the JDK versions is <a href="http://www.oracle.com/technetwork/java/javase/downloads/" target="_blank">Oracle</a> and you can get JDK 8 by clicking <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">here</a>.</p>
+        
+        <p>Choose the version for whichever operating system you are working on, and then follow the installation instructions. Just make sure you check the 'Add to PATH' box when asked. I am running on Windows, so if there are inconsistencies between operating systems, I apologize. To make sure Java has installed correctly, go to your command line or search for the Command Prompt application. Once at the command line, type in 'Java -version' without the single quotes and it will tell you the version of Java you have installed. In order for the code checking plugin to work properly, you have to make sure Javac (which is the Java compiler) has installed properly as well. To check that is the same process, just type 'javac -version', again without the single quotes. </p>
 
-<p>Information on how to get started goes here.</p>
-</div>
+        <p>If either one of those didn't work properly, and you're on Windows, there could be an issue with your Environment Variables. Go to your Advanced System Settings and look for the Environment Variables button. After you click on it, look for the variable PATH in the User Variables window. If it's not there, you can add it by pressing the 'new' button. Variable name should be set to PATH (in all caps) and the value will be the location of your JDK \bin. Go to where Java was installed in your computer and copy the address. For me it is C:\Program Files\Java\jdk1.8.0_171\bin. Make sure you copy the address for JDK and not the one for JRE. After that variable is set up, you need to update the System Variable in the other window. There should be another PATH variable, just add the same location to PATH as the last one. If there is no PATH variable, the process is the same for setting one up.</p>
+
+        <p>Now that you have the JDK set up you need somewhere to write your code. An integrated development environment (<a href="https://searchsoftwarequality.techtarget.com/definition/integrated-development-environment"
+        target="_blank">IDE</a>) is the most important tool at the developer's disposal. There are many to choose from, but two of 
+        the more popular ones would be <a href="https://netbeans.org/" target="_blank">Netbeans</a> or
+        <a href="https://www.jetbrains.com/idea/" target="_blank">IntelliJ</a>. I personally prefer IntelliJ because it feels more 
+        professional and seems quite intuitive. So for consistancy, all the Java lessons on this site will be using IntelliJ.
+        I'm sure you will be able to follow along no matter the IDE you choose, but just be aware that there could potentially be 
+        discrepencies between the two.
+        </p>
+
+        <p>Now to start with the MOOC checkout the <a href="http://mooc.fi/courses/2013/programming-part-1/" target="_blank">website</a>. Follow the steps <a href="http://mooc.fi/courses/general/programming/how-to-get-started.html" target="_blank">here</a> to get registered, which will give you an account to upload your code to and track your progress. Once registered, you will need the code checking plugin, so open IntelliJ. If it is your first time opening IntelliJ, a welcome screen will pop up. At the bottom choose configure / plugins and when that window opens, choose 'Browse Repositories'. Search for TMC and install the Test My Code plugin. Afterwards restart the program and you're good to go! If you've already started IntelliJ beforehand and don't know where to find the plugins, go to File, Settings, and press the Plugins button on the side.</p>
+
+        <p>Once you restart IntelliJ, the TMC plugin will ask you to sign in to your account. Enter the same credentials as when you registered. If the popup to sign in doesn't show, there is now a TMC tab at the top of the editor, you can login under TMC, Settings. During the login process, set the organization to MOOC, and select '2013 Object-oriented programming, part I' from the opening list of courses. Press okay and you will be given the option to download the lessons.</p>
+
+        <p>Now the fun begins! Read the lessons pertaining to the week you are on (<a href="https://materiaalit.github.io/2013-oo-programming/part1/week-1/" target="_blank">Start Here</a>) and when you get to the Excersises parts, choose the right one in IntelliJ. Write your code and test it locally using the green play button at the top of your screen. If everything runs properly and there are no errors, you can test it against the code on the server by pressing the little checkmark button beside Play. If everything passes you will then be asked if you want to upload the code. Choose yes and move on to the next one. Rinse and Repeat!</p>
+
+        <p>I hope you were able to find some value in this Lesson. I will be supplementing these lessons with videos at a later date, but this whole teaching thing is a new venture for me, so bear with me. If you have any questions please feel free to hit up my contact page. Good luck and happy hacking!</p>
+
+        <p>**Note** <br>The fine folks at University of Helsinki are in the process of updating this course, so once it is completed, I will be updating this lesson accordingly.</p>
+    </div>
 
 </div>
