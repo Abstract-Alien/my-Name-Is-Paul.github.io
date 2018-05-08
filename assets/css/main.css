@@ -102,11 +102,11 @@ nav {
 }
 
 .headshot {
-  width: 80%;
+  width: 100%;
   height: auto;
   margin-top: 25px;
   border-radius: 50%;
-  max-width: 350px;
+  max-width: 300px;
 }
 
 .text {
