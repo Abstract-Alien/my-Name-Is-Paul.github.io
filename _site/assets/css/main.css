@@ -466,6 +466,10 @@ nav {
     height: auto;
   }
 
+  .logo {
+    top: 0px;
+  }
+
   nav {
     padding-top: 5px;
   }
@@ -521,7 +525,7 @@ nav {
   }
 
   .pictures {
-    margin-top: 75px;
+    margin-top: 25px;
   }
 
   .headshot {
