@@ -323,6 +323,10 @@ nav {
 +++++++++++++++++++++++++++++
 */
 
+/* For MOOC Post */
+
+
+
 
 
 /*
@@ -590,5 +594,14 @@ nav {
   .post-text {
     padding: 0 15px;
   }
+
+  .disclaimer {
+    display: none;
+  }
+
+  .contact textarea {
+    height: 150px;
+  }
+  
 
 }
